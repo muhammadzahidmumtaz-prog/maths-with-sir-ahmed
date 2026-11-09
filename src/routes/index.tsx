@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { MessageCircle, Mail, Instagram, Facebook, Award, Video, BookOpen, Zap, FileText, GraduationCap } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
-const WA = "https://wa.me/923021442606";
+const WA = "https://wa.me/923021442606?text=Assalam-o-Alaikum%21%20I%20want%20to%20join%20Maths%20with%20Sir%20Ahmed.%20What%20I%20want%3A%20Regular%20Classes%20%2F%20Crash%20Course%20%2F%20Past%20Paper%20Preparation.%20My%20level%3A%20O%20Level%20%2F%20A%20Level.%20Please%20share%20fee%20and%20batch%20details.";
 const TITLE = "Maths with Sir Ahmed | O & A Level Mathematics, Lahore";
 const DESC = "One goal. One mindset. The Path to A* starts here. Online O & A Level Mathematics classes with Cambridge Certified teacher Ahmed Mumtaz.";
 
