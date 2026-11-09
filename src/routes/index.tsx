@@ -139,7 +139,7 @@ function Index() {
       <Section id="fee" eyebrow="Fee" title="Simple, transparent fee" alt>
         <div className="max-w-md rounded-lg border border-primary/50 bg-card p-10">
           <p className="font-serif text-6xl text-primary">Rs 6,500</p>
-          <p className="mt-2 text-muted-foreground">per month</p>
+          <p className="mt-2 text-muted-foreground">per month — for a group of 5 students</p>
           <div className="mt-8"><WaButton label="Enquire on WhatsApp" /></div>
         </div>
       </Section>
@@ -149,6 +149,7 @@ function Index() {
           {([
             ["Are the classes online?", "Yes. All classes are held online on Zoom or Google Meet."],
             ["Who can join?", "O Level and A Level Mathematics students."],
+            ["Is the fee per student?", "No. The fee is Rs 6,500 per month for a group of 5 students."],
             ["How do I register?", "Simply send a message on WhatsApp at 0302 1442606. Admissions are open — message for next batch details."],
           ] as [string, string][]).map(([q, a]) => (
             <AccordionItem key={q} value={q}>
